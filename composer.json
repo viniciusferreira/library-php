@@ -18,7 +18,8 @@
         "friendsofphp/php-cs-fixer": "^2.15",
         "phpunit/phpunit": "^8.4",
         "vimeo/psalm": "^3.6",
-        "psalm/plugin-phpunit": "^0.7.0"
+        "psalm/plugin-phpunit": "^0.7.0",
+        "behat/behat": "^3.5"
     },
     "autoload": {
         "psr-4": {
@@ -30,7 +31,8 @@
             "Akondas\\Library\\Tests\\": "tests/"
         },
         "files": [
-            "tests/Fixture/Fixtures.php"
+            "tests/Fixture/Fixtures.php",
+            "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
         ]
     },
     "scripts": {
